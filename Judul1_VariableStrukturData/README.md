@@ -1,19 +1,7 @@
 # **Manajemen Nilai Mahasiswa**
 
 **Deskripsi singkat :**
-Program ini dibuat untuk mengelola nilai mahasiswa. Program ini memungkinkan user menentukan jumlah mahasiswa yang akan diolah datanya. Program ini memungkinkan pengguna untuk memantau kapasitas kelas, memeriksa nilai, serta memperbarui data nilai dan mendapatkan total akumulasi dan nilai rata-rata. Program ini dapat menampung sejumlah mahasiswa yang ditentukan oleh user di awal. Dengan begitu, pengajar dapat memastikan bahwa data yang dimasukkan sesuai dengan jumlah mahasiswa di kelas.
-
-Program ini memiliki menu sederhana yang memudahkan pengguna untuk:
-
-1. Memantau kapasitas kelas
-
-2. Memeriksa rincian nilai tiap mahasiswa
-
-3. Memperbarui data nilai
-
-4. Mendapatkan total akumulasi dan nilai rata-rata
-
-Program ini dirancang untuk mencegah kerusakan jika pengguna memasukkan data yang tidak valid. Program ini hanya menerima nilai antara 0 hingga 100.
+Program ini dibuat untuk mengelola nilai mahasiswa. Program ini memungkinkan user menentukan jumlah mahasiswa yang akan diolah datanya. Program ini memungkinkan pengguna untuk memantau kapasitas kelas, memeriksa nilai, serta memperbarui data nilai dan mendapatkan total akumulasi dan nilai rata-rata. Program ini dapat menampung sejumlah mahasiswa yang ditentukan oleh user di awal. Program ini dirancang untuk mencegah kerusakan jika pengguna memasukkan data yang tidak valid.
 
 Program ini menggunaakan list sebagai struktur data utamanya karena menyimpan data secara berurutan dan mengakses data secara cepat.
 
@@ -24,7 +12,7 @@ Baris 1-5: Mendefinisikan fungsi menu(). Fungsinya hanya untuk menampilkan dafta
 
 Baris 7: Memasuki fungsi utama main().
 
-Baris 8: Program meminta input jumlah kuota mahasiswa (n) dari pengguna dan mengubahnya menjadi tipe data integer (bilangan bulat) karena setiap input dari user itu bertipe string.
+Baris 8: Program meminta input jumlah kuota mahasiswa (n) dari user dan mengubahnya menjadi tipe data integer (bilangan bulat) karena setiap input dari user itu bertipe string.
 
 Baris 9: Membuat struktur data List bernama nilai dengan panjang sebanyak n. Semua elemen diisi dengan angka 0 sebagai nilai awal.
 
@@ -96,3 +84,4 @@ Output ini adalah tahap akhir dari program. Ketika pengguna memasukkan angka 4, 
 
 
 **Link Youtube:**
+https://youtu.be/_LWw_K0nH2w
