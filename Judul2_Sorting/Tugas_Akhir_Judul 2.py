@@ -24,7 +24,7 @@ def main():
         while True:
             try:
                 nama = input(f"Siswa ke-{i+1} : ")
-                nilai = int(input(f"Nilai {nama} = "))
+                nilai = float(input(f"Nilai {nama} = "))
                 arr.append([nilai, nama])
                 break
             except ValueError:
