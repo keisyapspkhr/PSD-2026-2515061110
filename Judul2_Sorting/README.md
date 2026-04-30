@@ -75,5 +75,23 @@ Baris 43: Kondisi khusus Python. __name__ akan bernilai "__main__" jika file dij
 Baris 44: Memanggil fungsi main() sehingga program mulai berjalan.
 
 **Output Program:**
+<img width="447" height="38" alt="Cuplikan layar 2026-04-30 223733" src="https://github.com/user-attachments/assets/10c9d189-309c-4af3-8a57-6cdea8f33f2c" />
+Saat pertama kali program dijalankan, program akan meminta user untuk menginputkan jumlah dari siswa yang ingin diurutkan nilainya.
+
+<img width="348" height="51" alt="Cuplikan layar 2026-04-30 223751" src="https://github.com/user-attachments/assets/728cf502-2733-4b3d-9c59-8a2227b77a2f" />
+Setelah memasukkan jumlah siswa, program akan mulai meminta user untuk menginputkan nama dari siwa tersebut.
+
+<img width="356" height="71" alt="Cuplikan layar 2026-04-30 223808" src="https://github.com/user-attachments/assets/096b9b08-ecfe-47ab-806e-12da116beeee" />
+Setelah menginputkan nama, user akan meminta program untuk menginputkan nilai dari siswa tersebut.
+
+<img width="417" height="155" alt="Cuplikan layar 2026-04-30 223912" src="https://github.com/user-attachments/assets/4b919df3-cfce-4ffc-b055-2558f6d2c9f8" />
+Saat user tanpa sengaja menginputkan nilai yang salah, maka program akan mengeluarkan pemberitahuan dan meminta user untuk menginput ulang nilai mahasiswa yang salah tersebut mulai dari namanya.
+
+<img width="707" height="276" alt="Cuplikan layar 2026-04-30 224256" src="https://github.com/user-attachments/assets/79b0d8ad-3872-4055-b646-d6c33ea9dd4a" />
+Karena sebelumnya user sudah memasukkan jumlah siswa yang akan diurutkan berjumlah 3 orang, maka setelah melakukan pengulangan tiga kali, program akan menampilkan hasilnya.
+
+<img width="705" height="52" alt="Cuplikan layar 2026-04-30 224304" src="https://github.com/user-attachments/assets/8a4d5b86-5de9-4b9f-ae08-cba72d6ec931" />
+Program akan menampilkan data sebelum dan sesudah diurutkan.
 
 **Link YouTube:**
+https://youtu.be/H1JvVLCOk3U
