@@ -74,3 +74,6 @@ Baris 43: Kondisi khusus Python. __name__ akan bernilai "__main__" jika file dij
 
 Baris 44: Memanggil fungsi main() sehingga program mulai berjalan.
 
+**Output Program:**
+
+**Link YouTube:**
