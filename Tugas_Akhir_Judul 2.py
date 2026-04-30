@@ -1,0 +1,44 @@
+def tukar(arr, i, j):
+    temp = arr[i]
+    arr[i] = arr[j]
+    arr[j] = temp
+
+
+def bubble_sort(arr, n):
+    for i in range(n - 1):
+        for j in range(n - i - 1):
+            if arr[j] < arr[j + 1]:
+                tukar(arr, j, j + 1)
+
+
+def main():
+    try:
+        n = int(input("Masukkan jumlah Siswa: "))
+    except ValueError:
+        print("Input tidak valid!")
+        return
+    
+    arr = []
+    print("Masukkan nilai siswa :")
+    for i in range(n):
+        while True:
+            try:
+                nama = input(f"Siswa ke-{i+1} : ")
+                nilai = int(input(f"Nilai {nama} = "))
+                arr.append([nilai, nama])
+                break
+            except ValueError:
+                print("Input tidak valid, silakan masukkan angka!")
+
+    print(f"Nilai sebelum diurutkan: {arr}")
+    
+    bubble_sort(arr, n)
+
+    print("Nilai setelah diurutkan:", end=" ")
+    for i in range(n):
+        print(arr[i], end=" ")
+    print()
+
+
+if __name__ == "__main__":
+    main()
