@@ -3,7 +3,8 @@
 **Deskripsi**: Program ini digunakan untuk mencari sebuah nomor yang sudah disimpan di dalam List, yaitu [12, 15, 28, 32, 56, 98, 110, 125]. Program ini menerapkan Algoritma Binary Search, yaitu salah satu dari Algoritma Searching yang berkerja dengan syarat utamanya data sudah terurut. Cara kerjanya adalah mencari nilai tengah (median) dari data, lalu menbandingkannya dengan angka yang dicari. Ibaratkan data yang diurutkan adalah bersifat ascending. Jika angka tengah lebih besar dibandingkan dengan target, maka data akan fokus mencari ke sebelah kanan dengan cara memcari nilai tengahnya kembali, begitu pula sebaliknya. Program akan melakukan hal yang sama secara terus-menerus hingga menemukan data yang dicari atau bahkan tidak ditemukan sama sekali hingga mengeluarkan peringatan "Data Tidak Ditemukan".
 
 **Source Code**:
-<img width="768" height="831" alt="Cuplikan layar 2026-05-05 220021" src="https://github.com/user-attachments/assets/430b222a-2001-4e77-bff2-ec07a50a651c" />
+<img width="760" height="830" alt="Cuplikan layar 2026-05-05 223023" src="https://github.com/user-attachments/assets/fba6cd34-d8d2-4877-8914-3754cdb8ee34" />
+
 Baris 1: Mendefinisikan fungsi binary_search dengan tiga parameter, yaitu data sebagai list yang sudah terurut (dari kecil ke besar), n sebagai panjang list (jumlah elemen), dan target sebagai nilai yang ingin dicari.
 
 Baris 2: l yang mendefinisikan left, yaitu indeks paling kiri dari area pencarian, diinisialisasi dengan 0.
@@ -36,24 +37,40 @@ Baris 22: Mencetak isi list.
 
 Baris 23: Loop tak terbatas untuk meminta input hingga bernilai TRUE atau valid
 
-Baris 24: Blok try untuk menangkap error.
+Baris 24: Blok try untuk mencoba menangkap kode yang ada di dalamnya
 
 Baris 25: Minta input dari user, lalu konversi ke int (angka). Ini dikarenakan nilai dari setiap input adalah string.
 
 Baris 26: Jika sukses, break untuk keluar dari loop while.
 
-Baris 27–28: Jika pengguna memasukkan bukan angka (misal huruf), terjadi ValueError, maka cetak pesan error dan loop berulang.
+Baris 27–28: Jika pengguna memasukkan bukan angka (misal huruf), terjadi ValueError, maka cetak pesan error dan loop berulang, yaitu kembali ke loop aawwal untuk meminta user menginputkan nilai ulang, Loop ini akan terus berulang hingga user memasukkan nilai yang bernilai TRUE atau valid.
 
 Baris 29: Memanggil fungsi binary_search dengan data, panjang list, dan target. Hasil indeks (atau -1) disimpan di variabel pos.
 
-Baris 30: if pos < 4, karena list memiliki indeks 0–7. Angka 4 adalah batas tengah (indeks 0–3 = depan, indeks 4–7 = belakang). Ini hanya benar jika target ditemukan (pos tidak -1). Namun, jika pos = -1, maka -1 < 4 benar, sehingga akan masuk ke baris 31 dan mencoba mengakses data[-1] yang merupakan elemen terakhir (125)! Ini adalah kesalahan logika (bug). Seharusnya kondisi if pos != -1 dulu, baru membedakan depan/belakang. Tapi sesuai gambar, ini memang ditulis demikian.
+Baris 30: Kondisi pertama, jika pos bukan -1 (artinya ditemukan) dan pos kurang dari 4 (indeks 0,1,2,3), maka cetak bahwa nomor ditemukan di Halaman Depan. Kode ini akan berjalan hanya jika kedua syarat terpenuhi.
 
 Baris 31: Jika pos < 4 (termasuk -1), cetak bahwa nomor ditemukan di "Halaman Depan".
 
 Baris 32–33: Jika pos >= 4, cetak di "Halaman Belakang".
 
-Baris 34–35: else tidak akan pernah tercapai karena semua kemungkinan pos (termasuk -1) sudah masuk ke kondisi pertama. Seharusnya else untuk kasus tidak ditemukan, tapi karena bug, pesan "Nomor tidak ditemukan" tidak akan pernah muncul.
+Baris 34–35: Jika pos == -1 (tidak ditemukan), maka cetak "Nomor tidak ditemukan".
 
-Baris 37: Kondisi standar Python. Jika file ini dijalankan langsung (bukan diimpor sebagai modul), maka __name__ akan bernilai "__main__".
+Baris 37: Kondisi standar Python. Jika file ini dijalankan langsung.
 
 Baris 38: Memanggil fungsi main() sehingga program mulai.
+
+**Output Program**:
+<img width="611" height="67" alt="image" src="https://github.com/user-attachments/assets/dacc8314-e41c-49be-972d-9fb9a0b9011f" />
+Saat program baru dijalankan, program akan meminta user untuk menginputkan nilai yang ingin dicari terlebih dahulu.
+
+<img width="532" height="198" alt="image" src="https://github.com/user-attachments/assets/83247867-4ff6-4418-86d6-8ff73384dea4" />
+Output yang akan keluar jika user memasukkan angka yang lebih KECIL dari nilai tengahnya, yaitu indeks ke-3 (32).
+
+<img width="580" height="203" alt="image" src="https://github.com/user-attachments/assets/d8806418-4620-4deb-9436-134eaac0569f" />
+Output yang akan keluar jika user memasukkan angka yang lebih BESAR dari nilai tengahnya, yaitu indeks ke-3 (32).
+
+<img width="500" height="267" alt="image" src="https://github.com/user-attachments/assets/b4d001d9-a912-4549-937a-b9a380332166" />
+Output yang akan keluar jika user memasukkan angka yang TIDAK ADA di dalam list yang tersedia.
+
+<img width="610" height="116" alt="image" src="https://github.com/user-attachments/assets/f5ae780f-ef28-4816-bdf6-cd10142a94f0" />
+Hal yang akan terjadi jika user salah memasukkan input, yaitu BUKAN angka.
