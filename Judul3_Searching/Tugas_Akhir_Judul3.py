@@ -9,18 +9,17 @@ def binary_search(data, n, target):
             pos = m
             break
         elif data[m] < target:
-            print("Mencari ke depan")
+            print("Mencari ke Halaman Belakang")
             l = m + 1
         else:
-            print("Mencari ke belakang")
+            print("Mencari ke Halaman Depan")
             r = m - 1
     return pos
-
 
 def main():
     data = [12, 15, 28, 32, 56, 98, 110, 125]
     n = len(data)
-    print(f"Data array: {data}")
+    print(f"Data nomor: {data}")
     while True:
         try:
             target = int(input("Masukkan nomor yang ingin dicari: "))
@@ -33,9 +32,7 @@ def main():
     elif pos >= 4:
         print(f"Nomor {data[pos]} ditemukan pada indeks {pos} di Halaman Belakang")  
     else:
-        print("Tidak ditemukan")
-
-
+        print("Nomor tidak ditemukan")
 
 if __name__ == "__main__":
     main()
