@@ -73,4 +73,6 @@ Output yang akan keluar jika user memasukkan angka yang lebih BESAR dari nilai t
 Output yang akan keluar jika user memasukkan angka yang TIDAK ADA di dalam list yang tersedia.
 
 <img width="610" height="116" alt="image" src="https://github.com/user-attachments/assets/f5ae780f-ef28-4816-bdf6-cd10142a94f0" />
-Hal yang akan terjadi jika user salah memasukkan input, yaitu BUKAN angka.
+Hal yang akan terjadi jika user salah memasukkan input, yaitu BUKAN angka. Program akan meminta user untuk menginputkan nilai kembali.
+
+**Link YouTube**:
