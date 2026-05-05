@@ -27,7 +27,7 @@ def main():
         except ValueError:
             print("Input tidak valid, silakan masukkan angka!")
     pos = binary_search(data, n, target)
-    if pos < 4:
+    if pos != -1 and pos < 4:
         print(f"Nomor {data[pos]} ditemukan pada indeks {pos} di Halaman Depan")
     elif pos >= 4:
         print(f"Nomor {data[pos]} ditemukan pada indeks {pos} di Halaman Belakang")  
