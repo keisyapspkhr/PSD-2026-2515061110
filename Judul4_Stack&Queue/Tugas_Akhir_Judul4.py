@@ -1,5 +1,5 @@
 class QueueArray:
-    def __init__(self, max_size=100):
+    def __init__(self, max_size=10):
         self.MAXN = max_size
         self.q = [None] * self.MAXN
         self.front_idx = -1
@@ -53,7 +53,6 @@ class QueueArray:
             i = (i + 1) % self.MAXN
         print()
 
-
 def main():
     queue = QueueArray()
     pilih = 0
@@ -85,7 +84,6 @@ def main():
             print("Program selesai.")
         else:
             print("Pilihan tidak valid!")
-
 
 if __name__ == "__main__":
     main()
