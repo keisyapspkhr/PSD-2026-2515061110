@@ -13,7 +13,7 @@ class QueueArray:
 
     def enqueue(self, x):
         if self.is_full():
-            print("Pembeli Sudah Penuh")
+            print("Antrian Sudah Penuh")
             return
         if self.is_empty():
             self.front_idx = 0
