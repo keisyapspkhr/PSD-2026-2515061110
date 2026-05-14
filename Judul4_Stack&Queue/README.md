@@ -113,4 +113,4 @@ Jika user memilih 2, maka secara otomatis program akan mengeluarkan antrian pali
 
 Setelah user memilih 5, barulah program akan selesai dijalankan.
 
-**Video YouTube**: 
+**Video YouTube**: https://youtu.be/HpnJIVtURuI
