@@ -81,8 +81,9 @@ class SistemSkor:
         daftar = []
         self.descending(self.root, daftar)
         print("\n=== Daftar Juara ===")
-        for i, (key, nama) in enumerate(daftar, start=1):
-            print(f"Juara {i} = Pemain {nama} dengan skor {key}")
+        for i in range (len(daftar)):
+            key, nama = daftar[i]
+            print(f"Juara {i+1} = Pemain {nama} dengan skor {key}")
         print()
 
 def main():
