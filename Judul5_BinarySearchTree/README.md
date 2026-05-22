@@ -104,7 +104,7 @@ Baris 93-97: Mencetak pilihan menu.
 
 Baris 98-102: Meminta pengguna menginputkan pilihan. Jika pengguna memasukkan selain agka, maka akan mencetak error dan melanjutkan loop untuk meminta pengguna menginputkan ulang.
 
-Baris 103-110: Jika pengguna menginputkan angka 1, maka pengguna akan diminta untuk menginputkan nama dan skor dari pemain. Setelah itu, fungsi insert akan dipanggil dan mencetak pesan berhasil. Namun, jika pengguna salah menginputkan, maka pesan error akan keluar.
+Baris 103-110: Jika pengguna menginputkan angka 1, maka pengguna akan diminta untuk menginputkan nama dan skor dari pemain. Setelah itu, fungsi insert akan dipanggil dan mencetak pesan berhasil. Namun, jika pengguna salah menginputkan, maka pesan error akan keluar. Fungsi .strip() adalah untuk menghapus spasi di awal dan akhir sebuah string yang mungkin tidak sengaja pengguna input.
 
 Baris 111-116: Jika pengguna menginputkan angka 2, maka pengguna akan diminta menginputkan skor yang akan dihapus. Setelah itu, fungsi delete akan dipanggil. Jika pengguna salah menginputkan, maka pesan error akan keluar.
 
@@ -133,7 +133,7 @@ Jika Pengguna menginputkan pilihan selain angka 1-4, maka akan muncul pesan erro
 <img width="368" height="151" alt="image" src="https://github.com/user-attachments/assets/7d34c0dc-8bea-459f-a151-46c9b6eab1c8" />
 <img width="304" height="188" alt="image" src="https://github.com/user-attachments/assets/ba5a9c3e-a011-4f9e-9dc8-2209811c71f2" />
 
-Jika pengguna memilih menu 1, maka program akan meminta pengguna menginputkan nama dan skor dari pemain yang ingin disimpan.
+Jika pengguna memilih menu 1, maka program akan meminta pengguna menginputkan nama dan skor dari pemain yang ingin disimpan. Setelah itu, program akan kembali meminta input dari user terkait pilihan menu.
 
 <img width="305" height="362" alt="image" src="https://github.com/user-attachments/assets/8ed0473e-4f8b-43ed-b0b6-88cd7d06cba9" />
 
@@ -149,4 +149,4 @@ Jika pengguna memilih menu 2, maka program akan meminta pengguna untuk menginput
 
 Saat pengguna memilih menu 4, barulah progran benar-benar berhenti dan tidak akan meminta inputkan apa pun lagi dair pengguna.
 
-**Link YouTube:**
+**Link YouTube:** https://youtu.be/BG6W3Az4Ye8
