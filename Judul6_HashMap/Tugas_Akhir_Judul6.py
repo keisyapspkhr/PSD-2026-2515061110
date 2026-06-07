@@ -4,7 +4,6 @@ class Node:
         self.value = value
         self.next = None
 
-
 class HashMapSeparateChaining:
     def __init__(self, size=10):
         self.SIZE = size
@@ -68,7 +67,6 @@ class HashMapSeparateChaining:
             print("NULL")
         print("="*50)
 
-
 def main():
     hashmap = HashMapSeparateChaining()
     pilih = 0
@@ -126,7 +124,7 @@ def main():
         else:
             print("Pilihan tidak valid!")
             print("Masukkan Angka 1-4.")
-
+            print()
 
 if __name__ == "__main__":
     main()
