@@ -39,7 +39,7 @@ class HashMapSeparateChaining:
         print("        --- Daftar Buku di Perpustakaan ---")
         print("="*50)
         for i in range(self.SIZE):
-            print(f"Bucket {i}: ", end="")
+            print(f"Rak {i}: ", end="")
             current = self.table[i]
             if current is None:
                 print("Kosong")
@@ -109,7 +109,7 @@ def main():
             print()
         else:
             print("Pilihan tidak valid!")
-            print("Masukkan Angka 1-4.")
+            print("Masukkan ANGKA 1-4.")
 
 if __name__ == "__main__":
     main()
