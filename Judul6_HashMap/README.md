@@ -8,7 +8,7 @@ Program sudah memiliki beberapa data awal
 
 **Source Code:**
 
-
+<img width="800" height="2276" alt="merged-image-2026-06-08T12-40-51" src="https://github.com/user-attachments/assets/748688d4-d4fe-48b4-8bf6-c64b6b867ce5" />
 
 Baris 1: Mendefinisikan Class Node untuk Linked List
 
@@ -113,5 +113,39 @@ Baris 110-112: Kondisi dimana pengguna memasukkan angka selain angka 1-4.
 Baris 114-115: Memastikan bahwa main() dijalankan dan file digunakan secara langsung.
 
 **Output:**
+
+<img width="173" height="82" alt="image" src="https://github.com/user-attachments/assets/ad0ee314-8cc4-44ef-88ef-0eca3f712b06" />
+
+Tampilan yang akan ditampilkan saat program dijalankan pertama kali.
+
+<img width="161" height="38" alt="image" src="https://github.com/user-attachments/assets/8327fe26-88cf-4b62-9bc9-47943828520e" />
+<img width="157" height="35" alt="image" src="https://github.com/user-attachments/assets/bca33984-6ee0-4df2-b5fd-149d798f5d41" />
+<img width="170" height="188" alt="image" src="https://github.com/user-attachments/assets/ba01741a-d676-4b49-abcb-848556511a36" />
+
+Jika pengguna salah menginputkan menu awal, maka akan muncul pesan kesalahan dan program akan terus mengulang meminta inputan pilihan menu dari pengguna sampai pengguna memasukkan benar antara angka 1-4.
+
+<img width="278" height="280" alt="image" src="https://github.com/user-attachments/assets/1200efcc-d722-4733-a0d8-de16b2e973c8" />
+
+Tampilan saat pengguna memilih menu 1, yaitu menampilkan seluruh data buku yang ada. Setelah itu, program akan kembali meminta inputan pilihan dari pengguna.
+
+<img width="176" height="109" alt="image" src="https://github.com/user-attachments/assets/bc9b29d7-5193-409f-8879-517e988fb711" />
+<img width="179" height="119" alt="image" src="https://github.com/user-attachments/assets/de879e4f-7422-4e40-bba4-cbbdaae6bd74" />
+<img width="200" height="128" alt="image" src="https://github.com/user-attachments/assets/767d57da-373a-4b1d-925b-16e435ac9bf5" />
+<img width="167" height="129" alt="image" src="https://github.com/user-attachments/assets/de3ba46e-503d-449a-9510-cd8a232f64f5" />
+
+Tampilan saat pengguna memilih menu 1, yaitu menambahkan buku baru ke dalam daftar. Pengguna akan diminta untuk menginputkan kode dan judul bukunya. Namun, jika pengguna salah menginputkan kode buku, maka program akan menampilkan pesan kesalahan.
+
+<img width="221" height="111" alt="image" src="https://github.com/user-attachments/assets/15f9eda3-3823-46d7-9c19-a0a49d8dd689" />
+<img width="167" height="118" alt="image" src="https://github.com/user-attachments/assets/7505479c-9aad-46e1-8841-113783ae7249" />
+<img width="164" height="145" alt="image" src="https://github.com/user-attachments/assets/e4f67b93-8b8c-43f3-b99f-be57608f8517" />
+<img width="164" height="128" alt="image" src="https://github.com/user-attachments/assets/966b511a-a90a-4f29-8972-468aac3b0133" />
+
+Tampilan saat pengguna memilih menu 3, yaitu mencari buku dalam data. Jika pengguna memasukkan buku yang tidak ada dalam pencarian, maka program akan menampilkan pesan bahwa buku tidak ditemukan. Namun, jika ditemukan, program akan menampilkan judul buku dari kode yang dicari pengguna. Ada juga jika pengguna menginputkan selain angka, maka program akan menampilkan pesan kesalahan.
+
+<img width="167" height="90" alt="image" src="https://github.com/user-attachments/assets/6feb7662-216e-4239-b538-58e7ae1aeb69" />
+
+Tampilan jika pengguna memilih menu 4, yaitu keluar dari program. Maka program akan berhenti dan selesai.
+
+Program ini akan terus meminta pengguna untuk menginputkan pilihan sampai pengguna memilih menu 4, yaitu menu untuk keluar dari program.
 
 **Link YouTube:**
