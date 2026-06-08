@@ -1,4 +1,4 @@
-# **DAFTAR BUKU DI PERPUSTAKAAN**
+# **SISTEM DAFTAR BUKU PERPUSTAKAAN**
 
 **Deskripsi:** Program Sistem Perpustakaan ini adalah sebuah program sederhana untuk mengelola data buku menggunakan metode HASH MAP dengan SEPARATE CHAINING. 
 
