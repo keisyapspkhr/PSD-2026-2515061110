@@ -34,21 +34,6 @@ class HashMapSeparateChaining:
             current = current.next
         return None
 
-    def remove_key(self, key):
-        index = self.hash_function(key)
-        current = self.table[index]
-        prev = None
-        while current is not None:
-            if current.key == key:
-                if prev is None:
-                    self.table[index] = current.next
-                else:
-                    prev.next = current.next
-                return True
-            prev = current
-            current = current.next
-        return False
-
     def display(self):
         print("\n" + "="*50)
         print("        --- Daftar Buku di Perpustakaan ---")
@@ -121,10 +106,10 @@ def main():
                 print("Kode Buku Harus berupa ANGKA.")
         elif pilih == 4:
             print("Program selesai. Terima kasih!")
+            print()
         else:
             print("Pilihan tidak valid!")
             print("Masukkan Angka 1-4.")
-            print()
 
 if __name__ == "__main__":
     main()
