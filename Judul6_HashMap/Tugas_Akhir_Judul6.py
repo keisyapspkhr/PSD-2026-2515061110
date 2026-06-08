@@ -47,7 +47,7 @@ class HashMapSeparateChaining:
                 while current is not None:
                     print(f"({current.key},{current.value}) -> ", end="")
                     if current.next is not None:
-                        print(" -> ", end="")
+                        print("", end="")
                     current = current.next
             print("NULL")
         print("="*50)
@@ -64,7 +64,7 @@ def main():
     while pilih != 4:
         print()
         print("="*40)
-        print("       ===Sistem Perpustakaan===")
+        print("       ---Sistem Perpustakaan---")
         print("="*40)
         print("1. Tampilkan Seluruh Data Buku")
         print("2. Menambahkan Buku Baru")
@@ -112,4 +112,4 @@ def main():
             print("Masukkan ANGKA 1-4.")
 
 if __name__ == "__main__":
-    main()
+    main()    
